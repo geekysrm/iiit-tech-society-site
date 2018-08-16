@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
+import React, { Component } from "react";
 import {
   Collapse,
   Navbar,
@@ -7,15 +6,13 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem 
-} from 'reactstrap';
+  NavLink
+} from "reactstrap";
 
-class NavBar extends Component 
-{
+import logo from "../../images/logo.jpeg";
+import "./style.css";
+
+class NavBar extends Component {
   constructor(props) {
     super(props);
 
@@ -32,19 +29,33 @@ class NavBar extends Component
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="md" >
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <Navbar color="dark" dark expand="md">
+          <NavbarBrand href="/">
+            <img src={logo} className="logo" alt="" />
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink href="#">
+                  <span className="menu-item">Home</span>
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink href="#">
+                  <span className="menu-item">Events</span>
+                </NavLink>
               </NavItem>
-
+              <NavItem>
+                <NavLink href="#">
+                  <span className="menu-item">About Us</span>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#">
+                  <span className="menu-item">Contact Us</span>
+                </NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>

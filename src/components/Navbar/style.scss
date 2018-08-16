@@ -1,2 +1,16 @@
 @import "../../defaultStyles/colors";
 
+.logo {
+  width: 60px;
+  height: 5vh;
+  object-fit: contain;
+  padding: 0;
+  margin: 0;
+}
+.menu-item {
+  color: $alt-color;
+  padding: 0 20px;
+  //font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+}
