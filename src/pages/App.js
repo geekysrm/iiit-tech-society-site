@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import "semantic-ui-css/semantic.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css';
 
@@ -14,16 +15,7 @@ class App extends Component {
 
         <Navbar />
         <Hero />
-        <div className="heading" >
-          Tech Scociety <br />
-          IIIT Bhubaneswar
-        </div>
 
-        <div className="non_hero">
-            <h1>
-              continue ...
-            </h1>
-        </div>
       </div>
     );
   }
