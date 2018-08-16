@@ -9,7 +9,7 @@ import {
   NavLink
 } from "reactstrap";
 
-import logo from "../../images/logo.jpeg";
+import logo from "../../images/logo.png";
 import "./style.css";
 
 class NavBar extends Component {
