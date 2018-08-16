@@ -1,0 +1,26 @@
+@import "../../defaultStyles/colors";
+
+.logo_area {
+  height: 10vh;
+  width: 10%;
+  padding: 0;
+  padding-top: 5;
+  padding-bottom: 5;
+}
+.heading_area {
+  height: 10vh;
+  width: 90%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 24;
+}
+.logo {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.ui.menu {
+  background: $primary-color;
+}
