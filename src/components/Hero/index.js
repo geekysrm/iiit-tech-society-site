@@ -36,10 +36,16 @@ class Hero extends Component
                 <div className="heading" >
                     <div>
                         Tech Society <br />
-                        IIIT-Bhubaneswar
+                        IIIT-Bhubaneswar 
+                    </div>
+                    <div className="quote" >
+                        " Talk is cheap. Show me the code. "
                     </div>
                     <br />
                     <div className="societies" >
+                    <div>
+                        -&nbsp;
+                    </div>
                     <Typing loop={true}  speed={110}>
                         <span>{this.state.societies[0]}</span>
 
