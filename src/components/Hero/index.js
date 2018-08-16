@@ -14,26 +14,26 @@ class Hero extends Component
                 <div className="crossfade">
                     <figure 
                         style={{
-                            backgroundImage: `url(${img1})`
-                        }}
+                            backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(${img1})`
+                        }} 
                     ></figure>
                     <figure
                         style={{
                             animationDelay: '6s',
-                            backgroundImage: `url(${img2})`
-                        }}
+                            backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(${img2})`
+                        }} 
                     ></figure>
                     <figure
                         style={{
                             animationDelay: '12s',
-                            backgroundImage: `url(${img3})`
-                        }}
+                            backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(${img3})`
+                        }} 
                     ></figure>
                     <figure
                         style={{
                             animationDelay: '18s',
-                            backgroundImage: `url(${img4})`
-                        }}
+                            backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(${img4})`
+                        }} 
                     ></figure>
                 </div>
         );

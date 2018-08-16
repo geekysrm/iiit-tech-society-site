@@ -14,6 +14,10 @@ class App extends Component {
 
         <Navbar />
         <Hero />
+        <div className="heading" >
+          Tech Scociety <br />
+          IIIT Bhubaneswar
+        </div>
 
         <div className="non_hero">
             <h1>
