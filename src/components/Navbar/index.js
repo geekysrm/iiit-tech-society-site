@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import { Menu } from "semantic-ui-react";
 
+import './style.css';
+
 class Navbar extends Component {
   render() {
     return (
