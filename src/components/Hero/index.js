@@ -41,7 +41,6 @@ class Hero extends Component
                     <br />
                     <div className="societies" >
                     <Typing loop={true}  speed={110}>
-
                         <span>{this.state.societies[0]}</span>
 
                         <Typing.Delay ms={1000} />
@@ -68,6 +67,10 @@ class Hero extends Component
 
                         <Typing.Backspace count={this.state.societies[4].length} />
 
+                    </Typing>
+                    <Typing loop={true} speed={300} >
+                        _
+                        <Typing.Backspace count={1} />
                     </Typing>
                     </div>
                 </div>
