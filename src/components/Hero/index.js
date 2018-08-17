@@ -8,6 +8,12 @@ import Typing from "react-typing-animation";
 
 import "./style.css";
 
+import image1 from "../../images/carosel_images/image1.jpg";
+import image2 from "../../images/carosel_images/image2.jpg";
+import image3 from "../../images/carosel_images/image3.jpg";
+import image4 from "../../images/carosel_images/image4.jpg";
+import image5 from "../../images/carosel_images/image5.jpg";
+
 class Hero extends Component {
   constructor(props) {
     super(props);
@@ -19,6 +25,23 @@ class Hero extends Component {
         "Mozilla Campus Club",
         "P-Society",
         "PWL"
+      ],
+      items: [
+        {
+          src: image1
+        },
+        {
+          src: image2
+        },
+        {
+          src: image3
+        },
+        {
+          src: image4
+        },
+        {
+          src: image5
+        }
       ]
     };
   }
@@ -73,7 +96,7 @@ class Hero extends Component {
         </div>
 
         <div className="carousel">
-          <ImageCarousel />
+          <ImageCarousel items={this.state.items}/>
         </div>
       </div>
     );

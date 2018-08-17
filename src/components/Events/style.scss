@@ -1,0 +1,34 @@
+@import '../../defaultStyles/colors';
+
+.events-page-heading
+{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    color: $alt-color;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .events-page-heading
+    {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 400;
+        color: $light-color;
+        padding: 10px;
+    }
+}
+
+.card-container
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.events-container
+{
+    background-image: linear-gradient($primary-color, $primary-color-dark);
+}

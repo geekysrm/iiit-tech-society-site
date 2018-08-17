@@ -1,35 +1,31 @@
-import React from "react";
-import { Card, Icon, Button, Image } from "semantic-ui-react";
+import React,{ Component } from "react";
 
 import "./style.css";
 
-const getLink = link => (
-  <Button animated secondary onClick={() => window.location.assign(link)}>
-    <div className="event-btn">
-      <Button.Content visible>View Details</Button.Content>
-      <Button.Content hidden>
-        <Icon name="arrow right" />
-      </Button.Content>
-    </div>
-  </Button>
-);
+import ImageCarousel from '../Carousel';
 
-const EventCard = ({ image, title, description, link }) => (
-  <div className="event-card">
-    <Card fluid>
-      <div className="event-card-image-container">
-        <Image src={image} className="event-card-image" />
+class EventCard extends Component 
+{
+  render() 
+  {
+    return (
+      <div className="event-card-container">
+        <div className="event-image-container" >
+          <ImageCarousel items={this.props.items}/>
+        </div>
+        
+        <div className="event-title" >
+          {this.props.title}
+        </div>
+
+        <div className="event-text" >
+          {this.props.description}
+        </div>
+
+        <br />
       </div>
-
-      <Card.Content>
-        <Card.Header>{title}</Card.Header>
-        <Card.Description>{description}</Card.Description>
-      </Card.Content>
-      <Card.Content extra>
-        <div className="event-btn-container">{getLink(link)}</div>
-      </Card.Content>
-    </Card>
-  </div>
-);
+    );
+  }
+}
 
 export default EventCard;

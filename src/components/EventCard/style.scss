@@ -1,32 +1,47 @@
 @import "../../defaultStyles/colors";
 
-.event-card-image {
-  width: 300px;
-  height: 250px;
-  object-fit: contain;
+.event-title
+{
+    font-size: 36px;
+    text-align: center;
+    color: $alt-color;
+    font-weight: 400;
 }
 
-.event-card-image-container {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
+.event-image-container
+{
+    width: 400px;
+    display: flex;
+    justify-content: center;
 }
 
-.event-card {
-  margin-bottom: 20px;
-  width: 400px;
+.event-card-container
+{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.event-btn {
-  color: $alt-color;
-}
-.event-btn-container {
-  display: flex;
-  justify-content: center;
+.event-text
+{
+    font-size: 18px;
+    color: $light-color;
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
-  .event-card {
-    width: 300px;
+    .event-image-container
+    {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .event-card-container
+    {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
   }
-}
