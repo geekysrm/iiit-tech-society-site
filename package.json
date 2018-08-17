@@ -1,7 +1,7 @@
 {
-  "name": "Tech_Scoiety_IIIT_Bh",
+  "name": "Tech_Society_IIIT_Bh",
   "version": "0.1.0",
-  "private": true,
+  "author": "Soumya Ranjan Mohanty<soumyarnm@gmail.com>, K.Sai Kishan<sonusaikishan@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "node-sass-chokidar": "^1.3.3",
