@@ -67,7 +67,7 @@ class Societies extends Component {
     return (
       <div>
         <div className="page-heading">
-          Divided By Interests, United By College
+          Divided By Interest, United By Passion
         </div>
 
         <br />

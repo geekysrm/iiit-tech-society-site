@@ -6,6 +6,7 @@ import "./index.css";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Societies from "../components/Societies";
+import Events from '../components/Events';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Navbar />
         <Hero />
         <Societies />
+        <Events />
       </div>
     );
   }
