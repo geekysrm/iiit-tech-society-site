@@ -1,78 +1,77 @@
-@import '../../defaultStyles/colors';
+@import "../../defaultStyles/colors";
 
-.hero 
-{
-    backface-visibility: hidden;
-    background-size: cover;
-    background-position: center center;
-    height: 95vh;
-    width: 100%;
-    z-index: 0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+.hero {
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.heading
-{
-    font-size: 48px;
-    color: $light-color;
-    width: 400px;
-    text-align: center;
-    font-weight: 600;
+.heading {
+  font-size: 48px;
+  color: $light-color;
+  width: 400px;
+  text-align: center;
+  font-weight: 600;
 }
 
-.societies
-{
-    font-size: 36px;
-    color: $light-color;
-    display: flex;
-    font-weight: 100;
-    padding-top: 20px;
+.societies {
+  font-size: 36px;
+  color: $light-color;
+  display: flex;
+  font-weight: 100;
+  padding-top: 20px;
 }
 
-.carousel
-{
-    width: 550px;
-    display: flex;
-    justify-content: center;
+.carousel {
+  width: 550px;
+  display: flex;
+  justify-content: center;
 }
 
-.quote
-{
-    font-size: 18px;
-    color: $light-color;
-    padding-top: 10px;
-    font-weight: 300;
+.quote {
+  font-size: 18px;
+  color: $light-color;
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 950px) {
+  .heading {
+    margin-top: 60px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .heading
-    {
-        font-size: 42px;
-        color: $light-color;
-    }
-    .carousel
-    {
-        width: 550px;
-        display: flex;
-        justify-content: center;
-    }
+  .heading {
+    font-size: 42px;
+    color: $light-color;
+    margin-top: 70px;
+  }
+  .carousel {
+    width: 550px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .heading
-    {
-        font-size: 36px;
-        color: $light-color;
-    }
-    .carousel
-    {
-        width: 300px;
-        display: flex;
-        justify-content: center;
-    }
+  .heading {
+    font-size: 36px;
+    color: $light-color;
+    margin-top: 50px;
+  }
+  .carousel {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
 }

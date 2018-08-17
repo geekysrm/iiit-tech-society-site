@@ -12,7 +12,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <div style={{ position: "fixed", width: "100%", zIndex: "5" }}>
+          <Navbar />
+        </div>
         <Hero />
         <Societies />
         <Events />
