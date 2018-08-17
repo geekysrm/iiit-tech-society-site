@@ -8,6 +8,8 @@ import Hero from "../components/Hero";
 import Societies from "../components/Societies";
 import Events from '../components/Events';
 
+import Footer from '../components/Footer';
+
 class App extends Component {
   render() {
     return (

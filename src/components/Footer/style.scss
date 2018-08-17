@@ -1,0 +1,40 @@
+@import '../../defaultStyles/colors';
+
+.footer-container
+{
+    background-color: $primary-color-dark;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon
+{
+    margin: 5px;
+    color: $alt-color;
+}
+
+.icon:hover
+{
+    color: $light-color;
+}
+
+.copyright
+{
+    text-align: center;
+    color: $light-color;
+}
+
+.names
+{
+    font-weight: 800;
+}
+
+.names:hover
+{
+    color:$alt-color;
+}
