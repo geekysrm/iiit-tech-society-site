@@ -41,7 +41,6 @@ class Hero extends Component
                     <div className="quote" >
                         " Talk is cheap. Show me the code. "
                     </div>
-                    <br />
                     <div className="societies" >
                     <div>
                         -&nbsp;

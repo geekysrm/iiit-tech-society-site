@@ -1,0 +1,30 @@
+@import '../../defaultStyles/colors';
+
+.society-card-image
+{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.society-card-image-container
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.society-card
+{
+    margin-bottom: 20px;
+}
+
+.society-btn
+{
+    color: $alt-color;
+}
+.society-btn-container
+{
+    display: flex;
+    justify-content: center;
+}

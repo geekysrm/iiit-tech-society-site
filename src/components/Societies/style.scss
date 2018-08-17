@@ -8,3 +8,22 @@
     color: $primary-color;
     padding: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .page-heading
+    {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 400;
+        color: $primary-color;
+        padding: 10px;
+    }
+}
+
+.card-container
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

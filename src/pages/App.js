@@ -10,21 +10,16 @@ import Hero from '../components/Hero';
 import Societies from '../components/Societies';
 import SocietyCard from "../components/SocietyCard";
 
+import image from '../images/societies_logo/acm.jpg';
+
 class App extends Component {
   render() {
     return (
       <div>
+        
         <Navbar />
         <Hero />
         <Societies />
-
-        {/*Do like this for SocietyCard*/}
-        <SocietyCard
-          image="https://source.unsplash.com/random/800x600"
-          header="P Society"
-          description="We are P Society"
-          link="https://www.google.com"
-        />
         
       </div>
     );
