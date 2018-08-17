@@ -1,0 +1,32 @@
+@import "../../defaultStyles/colors";
+
+.event-card-image {
+  width: 300px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.event-card-image-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.event-card {
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.event-btn {
+  color: $alt-color;
+}
+.event-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .event-card {
+    width: 300px;
+  }
+}
