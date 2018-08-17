@@ -5,7 +5,7 @@
     text-align: center;
     font-size: 42px;
     font-weight: 400;
-    color: $light-color;
+    color: $alt-color;
     padding: 20px;
 }
 
@@ -30,5 +30,5 @@
 
 .events-container
 {
-    background-color: $primary-color-dark;
+    background-image: linear-gradient($primary-color, $primary-color-dark);
 }

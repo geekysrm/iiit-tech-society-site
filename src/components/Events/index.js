@@ -4,6 +4,8 @@ import './style.css';
 
 import EventCard from '../EventCard';
 
+import image from '../../images/background2.jpg'
+
 class Events extends Component 
 {
     constructor(props)
@@ -13,30 +15,41 @@ class Events extends Component
         this.state = {
             events: [
                 {
-                    title: "ACM Students Chapter",
-                    description: "....................",
-                    image: "https://via.placeholder.com/300x300?text=IMAGE",
-                    link: "#"
+                    title: "Event 1",
+                    images: [
+                        {
+                            src: "https://via.placeholder.com/500x300?text=IMAGE"
+                        },
+                        {
+                            src: "https://via.placeholder.com/500x300?text=IMAGE"
+                        }
+                    ],
+                    description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,"
                 },
                 {
-                    title: "ACM Students Chapter",
-                    description: "....................",
-                    image: "https://via.placeholder.com/300x300?text=IMAGE",
-                    link: "#"
+                    title: "Event 2",
+                    images: [
+                        {
+                            src: "https://via.placeholder.com/500x300?text=IMAGE"
+                        },
+                        {
+                            src: "https://via.placeholder.com/500x300?text=IMAGE"
+                        }
+                    ],
+                    description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,"
                 }
             ]
         }
     }
 
     renderEventCards = () => {
-        return this.state.events.map(society => {
+        return this.state.events.map(event => {
           return (
             <div>
               <EventCard
-                image={society.image}
-                title={society.title}
-                description={society.description}
-                link={society.link}
+                items={event.images}
+                title={event.title}
+                description={event.description}
               />
             </div>
           );
@@ -47,7 +60,7 @@ class Events extends Component
     render() 
     {
         return (
-            <div className="events-container" >
+            <div className="events-container">
                 <div className="events-page-heading">
                     We Believe In Learning By Doing
                 </div>
