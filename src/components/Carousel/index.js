@@ -2,11 +2,11 @@ import React, { Component } from "react";
 
 import { Carousel, CarouselItem, CarouselControl } from "reactstrap";
 
-import image1 from "../../images/image1.jpg";
-import image2 from "../../images/image2.jpg";
-import image3 from "../../images/image3.jpg";
-import image4 from "../../images/image4.jpg";
-import image5 from "../../images/image5.jpg";
+import image1 from "../../images/carosel_images/image1.jpg";
+import image2 from "../../images/carosel_images/image2.jpg";
+import image3 from "../../images/carosel_images/image3.jpg";
+import image4 from "../../images/carosel_images/image4.jpg";
+import image5 from "../../images/carosel_images/image5.jpg";
 
 import "./style.css";
 
