@@ -9,6 +9,8 @@ import Societies from "../components/Societies";
 import Events from '../components/Events';
 import ContactForm from '../components/ContactForm';
 
+import Footer from '../components/Footer';
+
 class App extends Component {
   render() {
     return (
