@@ -43,12 +43,17 @@ class NavBar extends Component {
               </NavItem>
               <NavItem>
                 <NavLink href="#">
+                  <span className="menu-item">Societies</span>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#">
                   <span className="menu-item">Events</span>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#">
-                  <span className="menu-item">About Us</span>
+                  <span className="menu-item">Members</span>
                 </NavLink>
               </NavItem>
               <NavItem>

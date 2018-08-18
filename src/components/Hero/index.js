@@ -62,7 +62,7 @@ class Hero extends Component {
           <div className="quote">" Talk is cheap. Show me the code. "</div>
           <div className="societies">
             <div>-&nbsp;</div>
-            <Typing loop={true} speed={110}>
+            <Typing loop={true} speed={110} hideCursor={true}>
               <span>{this.state.societies[0]}</span>
 
               <Typing.Delay ms={1000} />
@@ -89,7 +89,7 @@ class Hero extends Component {
 
               <Typing.Backspace count={this.state.societies[4].length} />
             </Typing>
-            <Typing loop={true} speed={300}>
+            <Typing loop={true} speed={300} hideCursor={true}>
               _<Typing.Backspace count={1} />
             </Typing>
           </div>
