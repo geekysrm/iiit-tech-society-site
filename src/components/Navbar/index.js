@@ -39,9 +39,9 @@ class NavBar extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/">
-                  <span className="menu-item">Home</span>
-                </NavLink>
+              <AnchorLink offset={() => 54} href="#home">
+                <span className="menu-item">Home</span>
+              </AnchorLink>
               </NavItem>
               <NavItem>
                 <AnchorLink offset={() => 54} href="#societies">

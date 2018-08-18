@@ -18,7 +18,9 @@ class App extends Component {
           <Navbar />
         </div>
 
-        <Hero />
+        <section id="home">
+          <Hero />
+        </section>
 
         <section id="societies">
           <Societies />
