@@ -53,11 +53,6 @@ class NavBar extends Component {
               </NavItem>
               <NavItem>
                 <NavLink href="#">
-                  <span className="menu-item">Members</span>
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#">
                   <span className="menu-item">Contact Us</span>
                 </NavLink>
               </NavItem>
