@@ -9,6 +9,8 @@ import {
   NavLink
 } from "reactstrap";
 
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
 import logo from "../../images/logo.png";
 import "./style.css";
 
@@ -37,24 +39,24 @@ class NavBar extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#">
+                <NavLink href="/">
                   <span className="menu-item">Home</span>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">
+                <AnchorLink offset={() => 54} href="#societies">
                   <span className="menu-item">Societies</span>
-                </NavLink>
+                </AnchorLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">
+                <AnchorLink offset={() => 54} href="#events">
                   <span className="menu-item">Events</span>
-                </NavLink>
+                </AnchorLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">
+                <AnchorLink offset={() => 105} href="#contact">
                   <span className="menu-item">Contact Us</span>
-                </NavLink>
+                </AnchorLink>
               </NavItem>
             </Nav>
           </Collapse>
