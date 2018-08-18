@@ -5,26 +5,45 @@ import "./style.css";
 export default () => {
   return (
     <div>
-      <form name="contact" method="post">
+      <form className="form" name="contact" method="post">
         <input type="hidden" name="form-name" value="contact" />
-        <p>
-          <label>
-            Your Name: <input type="text" name="name" />
-          </label>
+        <h2 className="contact-heading">CONTACT US</h2>
+        <p type="Name:">
+          <input
+            className="form-input"
+            placeholder="Write your name here.."
+            type="text"
+            name="name"
+            required
+            aria-required="true"
+            pattern="[a-zA-Z][a-zA-Z0-9\s]*"
+            title="Please enter your name e.g.: John Doe"
+          />
         </p>
-        <p>
-          <label>
-            Your Email: <input type="email" name="email" />
-          </label>
+        <p type="Email:">
+          <input
+            className="form-input"
+            placeholder="Let us know how to contact you back.."
+            type="email"
+            name="email"
+            required
+            aria-required="true"
+            pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"
+            title="Please enter valid email e.g.: example@example.com"
+          />
         </p>
-        <p>
-          <label>
-            Message: <textarea name="message" />
-          </label>
+        <p type="Message:">
+          <textarea
+            className="form-input"
+            placeholder="What would you like to tell us.."
+            defaultValue={""}
+            required
+            aria-required="true"
+          />
         </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
+        <button type="submit" className="submit-btn">
+          Send Message
+        </button>
       </form>
     </div>
   );
