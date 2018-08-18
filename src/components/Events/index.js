@@ -4,6 +4,12 @@ import "./style.css";
 import EventCard from "../EventCard";
 import DesignedButton from "../DesignedButton";
 
+import img_1_1 from '../../images/event_images/image_1_1.jpg';
+import img_1_2 from '../../images/event_images/image_1_2.jpg';
+import img_2_1 from '../../images/event_images/image_2_1.jpg';
+import img_2_2 from '../../images/event_images/image_2_2.jpg';
+import img_2_3 from '../../images/event_images/image_2_3.jpg';
+
 class Events extends Component {
   constructor(props) {
     super(props);
@@ -11,26 +17,29 @@ class Events extends Component {
     this.state = {
       events: [
         {
-          title: "Event 1",
+          title: "Technova",
           images: [
             {
-              src: "https://via.placeholder.com/500x300?text=IMAGE"
+              src: img_1_1
             },
             {
-              src: "https://via.placeholder.com/500x300?text=IMAGE"
+              src: img_1_2
             }
           ],
           description:
             "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,"
         },
         {
-          title: "Event 2",
+          title: "ML Workshop",
           images: [
             {
-              src: "https://via.placeholder.com/500x300?text=IMAGE"
+              src: img_2_1
             },
             {
-              src: "https://via.placeholder.com/500x300?text=IMAGE"
+              src: img_2_2
+            },
+            {
+              src: img_2_3
             }
           ],
           description:
