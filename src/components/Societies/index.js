@@ -4,9 +4,10 @@ import SocietyCard from "../SocietyCard";
 
 import "./style.css";
 
-import acm from "../../images/societies_logo/acm.jpg";
+import acm from "../../images/societies_logo/acm.png";
 import p_society from "../../images/societies_logo/p-society.png";
-import mozilla from "../../images/societies_logo/mozilla.svg";
+import ieee from "../../images/societies_logo/ieee.png";
+import pwl from "../../images/societies_logo/pwl.png";
 
 class Societies extends Component {
   constructor(props) {
@@ -16,32 +17,32 @@ class Societies extends Component {
       societies: [
         {
           title: "ACM Students Chapter",
-          description: "....................",
+          description: "ACM Students Chapter, IIIT Bhubaneswar",
           image: acm,
           link: "#"
         },
         {
           title: "TARS",
-          description: "The Automation and Robotics Scoiety",
-          image: "https://via.placeholder.com/300x300?text=IMAGE",
+          description: "The Automation and Robotics Society",
+          image: "https://via.placeholder.com/300x300?text=TARS",
           link: "#"
         },
         {
           title: "P-Society",
-          description: "....................",
+          description: "Programming Society, IIIT Bhubaneswar",
           image: p_society,
-          link: "#"
+          link: "https://p-society.herokuapp.com"
         },
         {
-          title: "Mozilla Campus Club",
-          description: "....................",
-          image: mozilla,
-          link: "#"
+          title: "IEEE Student Branch",
+          description: "IEEE Student Branch, IIIT Bhubaneswar",
+          image: ieee,
+          link: "http://ieee.iiit-bh.ac.in/"
         },
         {
           title: "PWL",
-          description: "Papers We Love ",
-          image: "https://via.placeholder.com/300x300?text=IMAGE",
+          description: "Papers We Love, Bhubaneswar Chapter",
+          image: pwl,
           link: "#"
         }
       ]
