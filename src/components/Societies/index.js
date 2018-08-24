@@ -8,6 +8,7 @@ import acm from "../../images/societies_logo/acm.png";
 import p_society from "../../images/societies_logo/p-society.png";
 import ieee from "../../images/societies_logo/ieee.png";
 import pwl from "../../images/societies_logo/pwl.png";
+import tars from "../../images/societies_logo/tars.jpg";
 
 class Societies extends Component {
   constructor(props) {
@@ -24,7 +25,7 @@ class Societies extends Component {
         {
           title: "TARS",
           description: "The Automation and Robotics Society",
-          image: "https://via.placeholder.com/300x300?text=TARS",
+          image: tars,
           link: "#"
         },
         {
