@@ -22,7 +22,7 @@ class Hero extends Component {
       societies: [
         "ACM IIIT Chapter",
         "TARS",
-        "Mozilla Campus Club",
+        "IEEE Student Branch",
         "P-Society",
         "PWL"
       ],
