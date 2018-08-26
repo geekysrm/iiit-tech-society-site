@@ -74,7 +74,7 @@ class Events extends Component {
 
         <div className="card-container">{this.renderEventCards()}</div>
 
-        <DesignedButton text="view all events" link="#" />
+        <DesignedButton text="view all events" link="/events" />
       </div>
     );
   }
