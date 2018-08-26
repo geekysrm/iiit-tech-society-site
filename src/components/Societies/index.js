@@ -20,13 +20,13 @@ class Societies extends Component {
           title: "ACM Students Chapter",
           description: "ACM Students Chapter, IIIT Bhubaneswar",
           image: acm,
-          link: "#"
+          link: "http://india.acm.org/"
         },
         {
           title: "TARS",
           description: "The Automation and Robotics Society",
           image: tars,
-          link: "#"
+          link: "https://www.facebook.com/groups/technetronic/"
         },
         {
           title: "P-Society",
@@ -44,7 +44,7 @@ class Societies extends Component {
           title: "PWL",
           description: "Papers We Love, Bhubaneswar Chapter",
           image: pwl,
-          link: "#"
+          link: "https://github.com/papers-we-love/bhubaneswar"
         }
       ]
     };
