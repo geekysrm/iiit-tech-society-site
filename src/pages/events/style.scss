@@ -1,0 +1,19 @@
+@import '../../defaultStyles/colors';
+
+.page-heading
+{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    color: $primary-color;
+    padding: 20px;
+}
+
+.eventspage-events-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
